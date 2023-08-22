@@ -76,3 +76,12 @@ video {
     background: #3b3b3bd5;
     mix-blend-mode:  overlay;
 }
+.text_area .icons {
+    margin-top: 100px; 
+}
+.text_area .icons .fa-brands {
+    color: #fff;
+    font-size: 1.5em;
+    padding-right: 3px;
+    cursor: pointer;
+}
