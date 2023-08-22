@@ -16,6 +16,12 @@ section header nav {
     justify-content: space-between;
     padding: 30px 50px;
 }
+section header nav a {
+    transition: .4s;
+}
+section header nav a:hover {
+    transform: scale(1.1);
+}
 section header nav a .logo {
     font-size: 17px;
     font-weight: 600;
@@ -26,6 +32,11 @@ section header nav ul li {
     padding: 0 15px;
     font-size: 15px;
     font-weight: 500;
+    transition: .3s;
+}
+section header nav ul li:hover {
+    transform: translate(-2px, -3px);
+    cursor: pointer;
 }
 video {
     position: absolute;
@@ -66,6 +77,10 @@ video {
     font-size: 14px;
     padding: 6px 20px;
     letter-spacing: 1px;
+    transition: 0.3s;
+}
+.text_area .btn:hover {
+    letter-spacing: 3px;
 }
 .overlay {
     position: absolute;
@@ -75,6 +90,7 @@ video {
     height: 100%;
     background: #3b3b3bd5;
     mix-blend-mode:  overlay;
+    z-index: -1;
 }
 .text_area .icons {
     margin-top: 100px; 
@@ -82,6 +98,11 @@ video {
 .text_area .icons .fa-brands {
     color: #fff;
     font-size: 1.5em;
+    padding: 0 0 5px;
     padding-right: 3px;
     cursor: pointer;
+    transition: 0.4s;
+}
+.text_area .icons .fa-brands:hover {
+    transform: translateY(-5px);
 }
