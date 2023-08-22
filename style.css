@@ -67,3 +67,12 @@ video {
     padding: 6px 20px;
     letter-spacing: 1px;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3b3b3bd5;
+    mix-blend-mode:  overlay;
+}
